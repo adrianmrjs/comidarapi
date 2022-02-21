@@ -1,0 +1,171 @@
+@import "../variables/main";
+@include resetStyles;
+
+.principalWrapper {
+  @media (min-width: 200px) {
+    width: 100%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+// Stilos generales
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #292a2b;
+}
+
+// MEDIAQUERY
+
+// ----------------- Mobile ---------- //
+
+@media (min-width: 320px) {
+}
+
+// ----------------- Tablet ---------- //
+
+@media (min-width: 1200px) {
+}
+
+// ----------------- Desktop ---------- //
+
+@media (min-width: 1200px) {
+  .background-content {
+    background: #c31432; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #240b36,
+      #c31432
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #240b36,
+      #c31432
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    header {
+      margin: 0.5rem;
+      width: auto;
+      height: 100%;
+      background-color: #292a2b;
+      border-radius: 0.5rem;
+      .top-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 2rem;
+        .logo-content {
+          width: 75px;
+          height: 75px;
+        }
+        .info-content {
+          .redes-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            li {
+              margin: 0rem 0.8rem 0.8rem 0.8rem;
+              i {
+                color: white;
+              }
+            }
+          }
+          .adress-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            color: white;
+          }
+          .butomms-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            color: white;
+            div {
+              margin: 0.5rem;
+            }
+            .buttom-cerrado {
+              font-size: 15px;
+              font-weight: bold;
+              background: #4e2438;
+              width: 100px;
+              padding: 0.5rem;
+              text-align: center;
+              text-decoration: none;
+              color: #ed154d;
+              border-radius: 100px;
+              cursor: pointer;
+            }
+            .buttom-abierto {
+              font-size: 15px;
+              font-weight: bold;
+              background: #2bbf66;
+              width: 100px;
+              padding: 0.5rem;
+              text-align: center;
+              text-decoration: none;
+              color: white;
+              border-radius: 100px;
+              cursor: pointer;
+            }
+            .buttom-1 {
+              color: #ed154d;
+            }
+          }
+          .promociones-content {
+            color: white;
+          }
+        }
+      }
+      .medium-header {
+        padding: 0 0 1rem 0;
+        ul {
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          padding: 0.5rem 1rem;
+          .medium-buttom-1 {
+            font-size: 15px;
+            font-weight: bold;
+            background: #2bbf6600;
+            width: 32%;
+            padding: 0.5rem;
+            text-transform: uppercase;
+            color: rgb(136, 136, 136);
+            border-radius: 100px;
+            border: 3px solid rgb(136, 136, 136);
+            cursor: pointer;
+          }
+          .medium-buttom-2 {
+            font-size: 15px;
+            font-weight: bold;
+            background: #2bbf66;
+            width: 32%;
+            height: auto;
+            text-transform: uppercase;
+            padding: 0.5rem;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 100px;
+            border: 3px solid #2bbf66;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

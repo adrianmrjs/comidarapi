@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 200px) {
+  .principalWrapper {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .principalWrapper {
+    width: 1200px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #292a2b;
+}
+
+@media (min-width: 1200px) {
+  .background-content {
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+  }
+  .background-content header {
+    margin: 0.5rem;
+    width: auto;
+    height: 100%;
+    background-color: #292a2b;
+    border-radius: 0.5rem;
+  }
+  .background-content header .top-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 2rem;
+  }
+  .background-content header .top-header .logo-content {
+    width: 75px;
+    height: 75px;
+  }
+  .background-content header .top-header .info-content .redes-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+  }
+  .background-content header .top-header .info-content .redes-content li {
+    margin: 0rem 0.8rem 0.8rem 0.8rem;
+  }
+  .background-content header .top-header .info-content .redes-content li i {
+    color: white;
+  }
+  .background-content header .top-header .info-content .adress-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
+  }
+  .background-content header .top-header .info-content .butomms-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: white;
+  }
+  .background-content header .top-header .info-content .butomms-content div {
+    margin: 0.5rem;
+  }
+  .background-content header .top-header .info-content .butomms-content .buttom-cerrado {
+    font-size: 15px;
+    font-weight: bold;
+    background: #4e2438;
+    width: 100px;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ed154d;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .background-content header .top-header .info-content .butomms-content .buttom-abierto {
+    font-size: 15px;
+    font-weight: bold;
+    background: #2bbf66;
+    width: 100px;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .background-content header .top-header .info-content .butomms-content .buttom-1 {
+    color: #ed154d;
+  }
+  .background-content header .top-header .info-content .promociones-content {
+    color: white;
+  }
+  .background-content header .medium-header {
+    padding: 0 0 1rem 0;
+  }
+  .background-content header .medium-header ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+  }
+  .background-content header .medium-header ul .medium-buttom-1 {
+    font-size: 15px;
+    font-weight: bold;
+    background: #2bbf6600;
+    width: 32%;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: #888888;
+    border-radius: 100px;
+    border: 3px solid #888888;
+    cursor: pointer;
+  }
+  .background-content header .medium-header ul .medium-buttom-2 {
+    font-size: 15px;
+    font-weight: bold;
+    background: #2bbf66;
+    width: 32%;
+    height: auto;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 100px;
+    border: 3px solid #2bbf66;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
