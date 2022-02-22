@@ -45,7 +45,8 @@ body {
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to top,
-      #240b36,
+      #272524,
+      #272524,
       #c31432
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
@@ -164,6 +165,43 @@ body {
             border: 3px solid #2bbf66;
             cursor: pointer;
           }
+        }
+      }
+    }
+  }
+  .section-slider {
+    display: flex;
+    flex-direction: column;
+    .title {
+      display: flex;
+      justify-content: start;
+      margin: 0 1rem;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+    .slider {
+      margin: 0.5rem 0.5rem;
+      width: auto;
+      height: 100%;
+      background-color: #292a2b;
+      border-radius: 0.5rem;
+      ul {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        .buttom-cerrado {
+          margin: 1rem 0rem;
+          margin-left: 1rem;
+          font-size: 15px;
+          font-weight: bold;
+          background: #ed0c6e;
+          padding: 0.5rem;
+          text-align: center;
+          text-decoration: none;
+          color: #5a2a45;
+          border-radius: 100px;
+          cursor: pointer;
         }
       }
     }
