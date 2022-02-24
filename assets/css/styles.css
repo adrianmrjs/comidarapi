@@ -211,6 +211,57 @@ body {
     border-radius: 100px;
     cursor: pointer;
   }
+
+  .section-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-cards .title {
+    display: flex;
+    justify-content: start;
+    margin: 0 1rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+  .section-cards .slider {
+    margin: 0.5rem 0.5rem;
+    width: auto;
+    height: 100%;
+    background-color: #292a2b;
+    border-radius: 0.5rem;
+  }
+  .section-cards .slider ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .section-cards .slider ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: #272524;
+  }
+  .section-cards .slider ul li .image-content {
+    width: 150px;
+    height: 141px;
+    border-radius: 1rem;
+  }
+  .section-cards .slider ul li .image-content img {
+    border-radius: 1rem 1rem 0 0;
+  }
+  .section-cards .slider ul li .image-description {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
