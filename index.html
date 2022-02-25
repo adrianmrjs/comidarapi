@@ -5,16 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/018a8c5510.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>comidarapi</title>
 </head>
 <body>
+    <div id="popup" class="popup-content">
+        <div class="content">
+            <div class="content-top">
+                <div class="title">
+                    <h2>Horarios</h2>
+                </div>
+                <div class="back">
+                    <a onclick="popUpToggle();" href="#"><i class="fa-solid fa-x"></i></a>
+                </div>
+            </div>
+            <div class="content-medium">
+                <ul>
+                    <li>
+                        <div>
+                            <h2>Martes</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Miercoles</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Jueves</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Viernes</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Sabado</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Domingo</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="content-down">
+                <button onclick="popUpToggle();">Cerrado</button>
+            </div>
+        </div>
+    </div>
+    <div class="body-content">
         <div class="principalWrapper">
             <div class="background-content">
                 <header>
                     <div class="top-header">
                         <div class="logo-content">
-                            <img src="/assets/images/logo/burger.png" alt="">
+                            <img src="assets/images/logo/burger.png" alt="">
                         </div>
                         <div class="info-content">
                             <ul class="redes-content">
@@ -28,11 +97,11 @@
                                 <p>Avenida San martin 1599, Comuna 15</p> 
                             </div>
                             <div class="butomms-content">
-                                <div class="buttom-cerrado">
-                                    <a>Cerrado</a>
+                                <div class="buttom-abierto">
+                                    <p>Abierto</p>
                                 </div>
-                                <div class="buttom-1">
-                                    <a>Ver Horarios</a>
+                                <div class="butttom-1">
+                                    <a onclick="popUpToggle();" href="#">Ver Horarios</a>
                                 </div>
                             </div>
                             <div class="promociones-content">
@@ -71,28 +140,28 @@
                     <div class="slider">
                         <ul>
                             <li>
-                                <div class="image-content"><img src="/assets/images/categoria/hambur/hambur-1.png" alt=""></div>
+                                <div class="image-content"><img src="assets/images/categoria/hambur/hambur-1.png" alt=""></div>
                                 <div class="image-description">
                                     <h2>Hamburgesa level</h2>
                                     <h2>500$</h2>
                                 </div>
                             </li>
                             <li>
-                                <div class="image-content"><img src="/assets/images/categoria/pizzas/pizza_napolitana.jpg" alt=""></div>
+                                <div class="image-content"><img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt=""></div>
                                 <div class="image-description">
                                     <h2>Pizza Napolitana</h2>
                                     <h2>500$</h2>
                                 </div>
                             </li>
                             <li>
-                                <div class="image-content"><img src="/assets/images/categoria/tacos/tacos.jpg" alt=""></div>
+                                <div class="image-content"><img src="assets/images/categoria/tacos/tacos.jpg" alt=""></div>
                                 <div class="image-description">
                                     <h2>Tacos Mexicanos</h2>
                                     <h2>500$</h2>
                                 </div>
                             </li>
                             <li>
-                                <div class="image-content"><img src="/assets/images/categoria/papas/papasfritas.png" alt=""></div>
+                                <div class="image-content"><img src="assets/images/categoria/papas/papasfritas.png" alt=""></div>
                                 <div class="image-description">
                                     <h2>Papas fritas</h2>
                                     <h2>500$</h2>
@@ -114,7 +183,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/hambur/hambur-1.png" alt="">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
                             </div>
                         </li>
                         <li>
@@ -124,7 +193,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/hambur/hambur-1.png" alt="">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
                             </div>
                         </li>
                         <li>
@@ -134,7 +203,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/hambur/hambur-1.png" alt="">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
                             </div>
                         </li>
                         <li>
@@ -144,7 +213,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/hambur/hambur-1.png" alt="">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
                             </div>
                         </li>
                         <li>
@@ -154,7 +223,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/hambur/hambur-1.png" alt="">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
                             </div>
                         </li>
                     </ul>
@@ -171,7 +240,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
                             </div>
                         </li>
                         <li>
@@ -181,7 +250,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
                             </div>
                         </li>
                         <li>
@@ -191,7 +260,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
                             </div>
                         </li>
                         <li>
@@ -201,7 +270,7 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
                             </div>
                         </li>
                         <li>
@@ -211,12 +280,15 @@
                                 <h2>950$</h2>
                             </div>
                             <div class="image-content">
-                                <img src="/assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
                             </div>
                         </li>
                     </ul>
                 </section>
             </div>
         </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

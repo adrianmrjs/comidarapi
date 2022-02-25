@@ -40,20 +40,156 @@ main {
 }
 
 body {
+  background-color: #292a2b;
+}
+
+.body-content {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #292a2b;
 }
 
 @media (min-width: 1200px) {
+  .popup-content {
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: -15rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #24242477;
+  }
+  .popup-content .content {
+    width: 600px;
+    height: 425px;
+    border-radius: 10px;
+    background-color: #292a2b;
+    box-shadow: 0 0 50px 0 #181818;
+  }
+  .popup-content .content .content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .popup-content .content .content-top .title {
+    color: white;
+  }
+  .popup-content .content .content-top .back a {
+    color: white;
+  }
+  .popup-content .content .content-medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-content .content .content-medium ul {
+    margin: 1rem;
+  }
+  .popup-content .content .content-medium ul li {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+  }
+  .popup-content .content .content-medium ul li div {
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+  }
+  .popup-content .content .content-down {
+    display: flex;
+    justify-content: center;
+  }
+  .popup-content .content .content-down button {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #ed0c6e;
+    background: #4e2438;
+    border: #4e2438;
+    cursor: pointer;
+  }
+
+  .popup-content.active {
+    visibility: visible;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: -15rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #24242477;
+  }
+  .popup-content.active .content {
+    width: 600px;
+    height: 425px;
+    border-radius: 10px;
+    background-color: #292a2b;
+    box-shadow: 0 0 50px 0 #181818;
+  }
+  .popup-content.active .content .content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .popup-content.active .content .content-top .title {
+    color: white;
+  }
+  .popup-content.active .content .content-top .back a {
+    color: white;
+  }
+  .popup-content.active .content .content-medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-content.active .content .content-medium ul {
+    margin: 1rem;
+  }
+  .popup-content.active .content .content-medium ul li {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+  }
+  .popup-content.active .content .content-medium ul li div {
+    display: flex;
+    justify-content: end;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+  }
+  .popup-content.active .content .content-down {
+    display: flex;
+    justify-content: center;
+  }
+  .popup-content.active .content .content-down button {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #ed0c6e;
+    background: #4e2438;
+    border: #4e2438;
+  }
+
   .background-content {
     background: #c31432;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #240b36, #c31432);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #272524, #272524, #272524, #272524, #272524, #c31432);
+    background: linear-gradient(to top, #272524, #272524, #272524, #272524, #272524, #272524, #272524, #272524, #c31432);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     height: 100%;
@@ -116,7 +252,6 @@ body {
     text-decoration: none;
     color: #ed154d;
     border-radius: 100px;
-    cursor: pointer;
   }
   .background-content header .top-header .info-content .butomms-content .buttom-abierto {
     font-size: 15px;
@@ -128,10 +263,10 @@ body {
     text-decoration: none;
     color: white;
     border-radius: 100px;
-    cursor: pointer;
   }
-  .background-content header .top-header .info-content .butomms-content .buttom-1 {
+  .background-content header .top-header .info-content .butomms-content .butttom-1 {
     color: #ed154d;
+    text-decoration: none;
   }
   .background-content header .top-header .info-content .promociones-content {
     color: white;
