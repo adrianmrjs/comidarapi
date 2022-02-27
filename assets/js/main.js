@@ -1,4 +1,4 @@
 function popUpToggle(){
-    const popUp = document.getElementById('popup');
+    const popUp = document.getElementById('popup-header');
     popUp.classList.toggle('active')
 }
