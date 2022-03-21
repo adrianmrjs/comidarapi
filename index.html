@@ -6,21 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/018a8c5510.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
     <title>comidarapi</title>
 </head>
 <body>
     <div  id="popup-header" class="popup-content-header ">
-        <div class="content animate__fadeInDown">
+        <div class="content">
             <div class="content-top">
                 <div class="title">
                     <h2>Horarios</h2>
                 </div>
                 <div class="back">
-                    <a onclick="popUpToggle();" href="#"><i class="fa-solid fa-x"></i></a>
+                    <a onclick="popUpToggleHeader();" href="#"><i class="fa-solid fa-x"></i></a>
                 </div>
             </div>
             <div class="content-medium">
@@ -75,12 +71,185 @@
                     </li>
                 </ul>
             </div>
-            
             <div class="content-down">
-                <button onclick="popUpToggle();">Cerrar</button>
+                <button onclick="popUpToggleHeader();">Cerrar</button>
             </div>
         </div>
     </div>
+
+    <div  id="popup-categoria" class="popup-content-categoria">
+        <div class="content">
+            <div class="content-top">
+                <div class="title">
+                </div>
+                <div class="back">
+                    <a onclick="popUpToggleCategoria();" href="#"><i class="fa-solid fa-x"></i></a>
+                </div>
+            </div>
+            <div class="content-medium">
+                <div class="img-content">
+                    <img src="/assets/images/categoria/hambur/hambur-categoria.png" alt="">
+                </div>
+            </div>
+            
+            <div class="content-down">
+                <div class="product-description">
+                    <h2>New York City</h2>
+                    <p>Doble asdasdasdasdasdasdadsCheddar, bacon, cebollas caramelizadas y pepinos agridulces</p>
+                </div>
+                <div class="product-option">
+                    <div class="content-product">
+                        <h2 class="underline-main">OPCIONES</h2>
+                        <ul>
+                            <li>
+                                <div class="option">
+                                    <p>Simple</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$980</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Doble</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$1280</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-product">
+                        <h2 class="underline-main">ACOMPAÑAMIENTO</h2>
+                        <ul>
+                            <li>
+                                <div class="option">
+                                    <p>Papas Fritas</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$200</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Batatas Fritas $200</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$980</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Mix de Papas y Batatas</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$350</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Papas fritas con Romero y pimentón ahumado</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$300</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-product">
+                        <h2 class="underline-main">EXTRAS</h2>
+                        <ul>
+                            <li>
+                                <div class="option">
+                                    <p>Papas Fritas</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$200</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Batatas Fritas $200</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$980</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Mix de Papas y Batatas</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$350</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Papas fritas con Romero y pimentón ahumado</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$300</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content-product">
+                        <h2 class="underline-main">EXTRAS</h2>
+                        <ul>
+                            <li>
+                                <div class="option">
+                                    <p>Papas Fritas</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$200</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Batatas Fritas $200</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$980</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Mix de Papas y Batatas</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$350</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="option">
+                                    <p>Papas fritas con Romero y pimentón ahumado</p>
+                                </div>
+                                <div class="price-checkbox">
+                                    <h2>$300</h2>
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="body-content">
         <div class="principalWrapper">
             <div class="background-content">
@@ -105,7 +274,7 @@
                                     <p>Abierto</p>
                                 </div>
                                 <div class="butttom-1">
-                                    <a onclick="popUpToggle();" href="#">Ver Horarios</a>
+                                    <a onclick="popUpToggleHeader();" href="#">Ver Horarios</a>
                                 </div>
                             </div>
                             <div class="promociones-content">
@@ -144,32 +313,40 @@
                     <div class="slider">
                         <ul>
                             <li>
-                                <div class="image-content"><img src="assets/images/categoria/hambur/hambur-1.png" alt=""></div>
-                                <div class="image-description">
-                                    <h2>Hamburgesa level</h2>
-                                    <h2>500$</h2>
-                                </div>
+                                <a onclick="popUpToggleCategoria();" href="#">
+                                    <div class="image-content"><img src="assets/images/categoria/hambur/hambur-1.png" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Hamburgesa level</h2>
+                                        <h2>500$</h2>
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="image-content"><img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt=""></div>
-                                <div class="image-description">
-                                    <h2>Pizza Napolitana</h2>
-                                    <h2>500$</h2>
-                                </div>
+                                <a href="">
+                                    <div class="image-content"><img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Pizza Napolitana</h2>
+                                        <h2>500$</h2>
+                                     </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="image-content"><img src="assets/images/categoria/tacos/tacos.jpg" alt=""></div>
-                                <div class="image-description">
-                                    <h2>Tacos Mexicanos</h2>
-                                    <h2>500$</h2>
-                                </div>
+                                <a href="">
+                                    <div class="image-content"><img src="assets/images/categoria/tacos/tacos.jpg" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Tacos Mexicanos</h2>
+                                        <h2>500$</h2>
+                                    </div>
+                                </a>
                             </li>
                             <li>
-                                <div class="image-content"><img src="assets/images/categoria/papas/papasfritas.png" alt=""></div>
-                                <div class="image-description">
-                                    <h2>Papas fritas</h2>
-                                    <h2>500$</h2>
-                                </div>
+                                <a href="">
+                                    <div class="image-content"><img src="assets/images/categoria/papas/papasfritas.png" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Papas fritas</h2>
+                                        <h2>500$</h2>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
