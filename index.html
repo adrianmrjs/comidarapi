@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/018a8c5510.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>comidarapi</title>
+</head>
+<body>
+    <div  id="popup-header" class="popup-content-header ">
+        <div class="content">
+            <div class="content-top">
+                <div class="title">
+                    <h2>Horarios</h2>
+                </div>
+                <div class="back">
+                    <a onclick="popUpToggleHeader();" href="#"><i class="fa-solid fa-x"></i></a>
+                </div>
+            </div>
+            <div class="content-medium">
+                <ul>
+                    <li>
+                        <div>
+                            <h2>Martes</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Miercoles</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Jueves</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Viernes</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Sabado</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>Domingo</h2>
+                        </div>
+                        <div>
+                            <p>de 18:00 a 23:00</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-down">
+                <button onclick="popUpToggleHeader();">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <div  id="popup-categoria" class="popup-content-categoria">
+        <div class="content">
+            <div class="content-top">
+                <div class="title">
+                </div>
+                <div class="back">
+                    <a onclick="popUpToggleCategoria();" href="#"><i class="fa-solid fa-x"></i></a>
+                </div>
+            </div>
+            <div class="content-medium">
+                <div class="img-content">
+                    <img src="/assets/images/categoria/hambur/hambur-categoria.png" alt="">
+                </div>
+            </div>
+            
+            <div class="content-down">
+                <div class="product-description">
+                    <h2>New York City</h2>
+                    <p>Doble asdasdasdasdasdasdadsCheddar, bacon, cebollas caramelizadas y pepinos agridulces</p>
+                    <div class="price">
+                        <div><h2>$</h2></div>
+                        <div id="product-price"><h2>500</h2></div>
+                    </div>
+
+                    
+                </div>
+                <div class="product-option">
+                    <div class="content-product">
+                        <h2 class="underline-main">UNIDADES</h2>
+                        <div class="count-products">
+                            <div class="border">
+                                <div><a  href="#" id="count-producto-icon-minus"><i class="fa-solid fa-minus"></i></a></div>
+                                <div id="countProducts"> <p>1</p> </div>
+                                <div><a href="#" id="count-producto-icon-plus"><i class="fa-solid fa-plus"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-product">
+                        <div class="section-shop">
+                                <a class="button-shop" href="#">     
+                                    <div><i class="fa-solid fa-bag-shopping"></i></div>
+                                    <div><p>Agregar a Mi Pedido</p></div>
+                                    <div id="cart-price">$500</div></a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body-content">
+        <div class="principalWrapper">
+            <div class="background-content">
+                <header>
+                    <div class="top-header">
+                        <div class="logo-content">
+                            <img src="assets/images/logo/burger.png" alt="">
+                        </div>
+                        <div class="info-content">
+                            <ul class="redes-content">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-solid fa-phone"></i></li>
+                                <li><i class="fa-brands fa-whatsapp"></i></li>
+                                <li><i class="fa-solid fa-share-nodes"></i></li>
+                            </ul>
+                            <div class="adress-content">
+                                <p>Avenida San martin 1599, Comuna 15</p> 
+                            </div>
+                            <div class="butomms-content">
+                                <div class="buttom-abierto">
+                                    <p>Abierto</p>
+                                </div>
+                                <div class="butttom-1">
+                                    <a onclick="popUpToggleHeader();" href="#">Ver Horarios</a>
+                                </div>
+                            </div>
+                            <div class="promociones-content">
+                                <p>DESCUENTO! 10% OFF para pago en EFVO. Sobre todos los precios de la carta (Excepto Promociones)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium-header">
+                        <ul>
+                            <li class="medium-buttom-1">salón</li>
+                            <li class="medium-buttom-2">delivery</li>
+                            <li class="medium-buttom-1">reservar</li>
+                        </ul>
+                    </div>
+                </header>
+
+                <section class="section-slider">
+                    <div class="title">
+                        <h2>Categorías</h2>
+                    </div>
+                    <div class="slider">
+                        <ul>
+                            <li class="buttom-cerrado"><a>Lo mas destacado</a></liLo>
+                            <li class="buttom-cerrado"><a>Burguers</a></li>
+                            <li class="buttom-cerrado"><a>Pizzas</a></li>
+                            <li class="buttom-cerrado"><a>Tacos</a></li>
+                            <li class="buttom-cerrado"><a>Bebidas</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="section-cards">
+                    <div class="title">
+                        <h2>Lo más destacado</h2>
+                    </div>
+                    <div class="slider">
+                        <ul>
+                            <li>
+                                <a onclick="popUpToggleCategoria();" href="#">
+                                    <div class="image-content"><img src="assets/images/categoria/hambur/hambur-1.png" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Hamburgesa level</h2>
+                                        <h2>500$</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="image-content"><img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Pizza Napolitana</h2>
+                                        <h2>500$</h2>
+                                     </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="image-content"><img src="assets/images/categoria/tacos/tacos.jpg" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Tacos Mexicanos</h2>
+                                        <h2>500$</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="image-content"><img src="assets/images/categoria/papas/papasfritas.png" alt=""></div>
+                                    <div class="image-description">
+                                        <h2>Papas fritas</h2>
+                                        <h2>500$</h2>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section-productos">
+                    <div class="title">
+                        <h2>Burguers</h2>
+                        <p>Son únicas, probalas</p>
+                    </div>
+                    <ul class="products">
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/hambur/hambur-1.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="title">
+                        <h2>Pizzas</h2>
+                        <p>Son únicas, probalas</p>
+                    </div>
+                    <ul class="products">
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-description">
+                                <h2>New York City</h2>
+                                <p>Doble Cheddar, bacon, BBQ casera, cebollas caramelizadas y pepinos agridulces</p>
+                                <h2>950$</h2>
+                            </div>
+                            <div class="image-content">
+                                <img src="assets/images/categoria/pizzas/pizza_napolitana.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
